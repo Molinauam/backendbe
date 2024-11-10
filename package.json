@@ -1,0 +1,21 @@
+{
+  "name": "sgia-backend",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "nodemon -e js ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Santiago Arboleda Agudelo",
+  "license": "ISC",
+  "description": "Servidor REST para la aplicación de gestión de inventarios",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.10.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
